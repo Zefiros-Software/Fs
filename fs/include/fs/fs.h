@@ -27,9 +27,15 @@
 #ifndef __FS_FS_H__
 #define __FS_FS_H__
 
+#ifdef IS_MACOS
+#include <filesystem>
+
+namespace fs = std::filesystem;
+#else
 #include <experimental/filesystem>
 
 namespace fs = std::experimental::filesystem;
+#endif
 
 namespace FileSystem
 {

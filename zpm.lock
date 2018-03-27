@@ -9,7 +9,7 @@
       "public": {
         "libraries": [ {
           "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
-          "hash": "dfa853b63d17c787914b663b50c2095a0c5b706e",
+          "hash": "cafa9e52285d743d1394900fa95662950f712a72",
           "name": "Zefiros-Software/GoogleTest",
           "repository": "https://github.com/google/googletest.git",
           "tag": "HEAD",
