@@ -45,8 +45,8 @@ matrix:
     - GCC_VERSION=7
 global:
   env:
-  - PROJECT=Fs
-  - PROJECT_DIRECTORY=fs
+  - PROJECT=FileSystem
+  - PROJECT_DIRECTORY={{PROJECT_DIRECTORY}}
   - PROJECT_TEMPLATE=latest
 install:
 - source /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/Zefiros-Software/ZPM/dev/script/install-zpm.sh)"
@@ -56,4 +56,4 @@ after_success:
 - zpm run deploy-ci-library
 notifications:
   slack:
-    secure: hFKGMT4WTXzWu7Sw+aUqPICv7TOhgeNcJUwgb4QbGN2lDAyjjlj0x59g7HeyotP6s9Lyh7LulgFdaKs4SBX/cXsIsk5oJZYYKvCEW39clf9wJqHYMgf0vNfQJO/Caemn7rEaAQC51Y/uXqeWCjmhtCfPcVZcHEKbGj5LAnE6Vk2IV9OOtiV6+8srjuoaBndbFQ0QZihOr8869DssOomyR3LvFVpRQtUGXk8XVGNx+iAJ/Ebdp8o0DSzXZ85j/byBJkf4+VshmsWPuP9gC3+xK7YZTXsJeIzgESoC7A/xMBL8e3Uy5rZvkoFQOgicflaEdSq2ONLqX9QBx6myJpiIihk63qgFNfuFlujiFKkZDzxvzDlB36IKLIGpQSjvv7S3qzxzHDplwUilv+OLKyFoe1vtc09/ANhjiKDkjIOTYP8Dk17uAbKxyyhKoYLyR+RpKQuOe+8HcHVwKcVkxRBj82Jss8DtCBvlKbMmYXvSILEXtZdW040XPQe2qOOJxGcJvckbOgMSAU+OV2PiDA5Z3MdhgxGt3Ta/fNx8xwFqPOdzYTssix1QQxuHDOjAz9TOYyWTsHmNoJFei5UCBXbG9opNX+llVDvM1YVKGD3lTM3Xv0vRlMw/NB/s3QYqQ7CcwBd+fvhK1aep0VyFAXm6uHYWMMnEPHwxhH6sdABbBTg=
+    secure: NY1UhbUmXq6s0q78bwC/X3l7De1T9m0XB359YuZVP00iytyqpphatnRVVlb8DxeHevUtoZgAQjz0B0w9jaMsqcD4nFebrdb/32M3soCEfG08KaxZgk2y12DisgkTZkEmwLvx88jtTBVna3FftJO4S3q7Rru1+RA9hngnMBg3J7bRwnkJUTG5+MHv5liRQn2e+j9I/AL3gyO3QjcTZt+/3xln1laEFEGjsIof64mtuwqLpW8Ii985zxqYUTiyY3t66kV59kwqRTc8fA9I066WOodr7WVPRmJkfYWTx7CbF5/XEw8mOKPxnJFKLXUbMXzMuZ52AkdOqsq73MPTumduFShP+JuBgqccB5aoYU3EDYF7AgOI5BXX/sEmlnz0AuEMZIoPtgkW2HrgIzELnxESNWYS08B5JwzdfGmLb+LbOfpcNN5TqTRJKGjl+Ugr3slAusNAMssfULYZLR66IiHcc1WXLa9z3rcceq9ra+tzTsTG17k2Zc4iWsPTmKp7gv0nYrE5AndknoZ5LGDpSxj4HZIbqvzdmzE9DHD+VFOKj8qOpVt4rVQhaNbT4QtinSThFFXOj25wRh+sCS4Gq0/sda1d7N0YO5tZJWIn3Qi24sn2sNP3OMtsUAHnWRm/RC5TIAi+wQ457h2TNLtFjBorAh4lIaV2e0cuXRcNAb2/zWs=
