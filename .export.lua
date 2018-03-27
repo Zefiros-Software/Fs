@@ -16,7 +16,7 @@ project "FileSystem"
         filter "system:macosx"
             links {
                 "c++experimental",
-                "stdc++fs"
+                "pthread"
             }
         
         filter {}
