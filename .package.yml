@@ -1,0 +1,9 @@
+name: Zefiros-Software/Fs
+development:
+  modules:
+  - name: Zefiros-Software/Defaults
+    version: '@head'
+public:
+  libraries:
+    - name: Zefiros-Software/Preproc
+      version: '@head'

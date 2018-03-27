@@ -1,0 +1,53 @@
+{
+  "definition": "./",
+  "optionals": [],
+  "private": {
+    "modules": [ {
+      "definition": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "hash": "307ed2723825fe315220ed5b5117d5b947894742",
+      "name": "Zefiros-Software/Defaults",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
+          "hash": "dfa853b63d17c787914b663b50c2095a0c5b706e",
+          "name": "Zefiros-Software/GoogleTest",
+          "repository": "https://github.com/google/googletest.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head || ^1.0.0"
+        }, {
+          "definition": "https://github.com/Zefiros-Software/GoogleBenchmark.git",
+          "hash": "e7eb54b5f8d29f3d91f5fbda0909c65c2ae70ba9",
+          "name": "Zefiros-Software/GoogleBenchmark",
+          "repository": "https://github.com/google/benchmark.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ]
+  },
+  "public": {
+    "libraries": [ {
+      "definition": "https://github.com/Zefiros-Software/Preproc.git",
+      "hash": "64464958f1954a7a62809cf02d41e622dd9eab7a",
+      "name": "Zefiros-Software/Preproc",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/Predef.git",
+          "hash": "c8c26821b9ab850ace7bbaf0d22f347a1486ff6d",
+          "name": "Zefiros-Software/Predef",
+          "repository": "https://github.com/boostorg/predef.git",
+          "tag": "boost-1.66.0",
+          "version": "1.66.0",
+          "versionRequirement": ">1.65.0 || @head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/Preproc.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ]
+  },
+  "repository": "./"
+}
