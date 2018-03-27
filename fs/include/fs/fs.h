@@ -27,7 +27,14 @@
 #ifndef __FS_FS_H__
 #define __FS_FS_H__
 
-#include <experimental/filesystem>
+#include "preproc/preproc.h"
+
+#ifdef IS_MACOS
+#   include <filesystem>
+#else
+#   include <experimental/filesystem>
+#endif
+
 
 namespace fs = std::experimental::filesystem;
 
