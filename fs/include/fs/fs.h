@@ -36,7 +36,6 @@ namespace FileSystem
     fs::path GetExePath();
     fs::path GetBinaryDirectory();
     fs::path GetWorkingDirectory();
-    fs::path GetSolutionDirectory();
 }
 
 #endif

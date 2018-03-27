@@ -73,8 +73,3 @@ fs::path FileSystem::GetWorkingDirectory()
 {
     return fs::canonical(fs::absolute("."));
 }
-
-fs::path FileSystem::GetSolutionDirectory()
-{
-    return fs::canonical(fs::absolute(GetBinaryDirectory() / "../.."));
-}

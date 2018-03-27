@@ -29,12 +29,12 @@
 
 TEST(Example1, Exists)
 {
-    EXPECT_TRUE(fs::exists(FileSystem::GetSolutionDirectory() / "test/main.cpp"));
+    EXPECT_TRUE(fs::exists(FileSystem::GetExePath()));
 }
 
 TEST(Example2, Same)
 {
-    EXPECT_TRUE(FileSystem::GetSolutionDirectory() == fs::canonical("../../"));
+    EXPECT_TRUE(fs::is_directory(FileSystem::GetBinaryDirectory()));
 }
 
 int main(int argc, char **argv)
