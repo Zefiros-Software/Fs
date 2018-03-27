@@ -13,12 +13,12 @@ project "FileSystem"
         filter "system:linux"
             links "stdc++fs"
 
-        --filter "system:macosx"
-        --    links {
-        --       "c++experimental",
+        filter "system:macosx"
+            links {
+               "c++experimental",
         --        "stdc++fs",
         --        "pthread"
-        --    }
+            }
         
         filter {}
     end)
