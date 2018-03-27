@@ -4,7 +4,7 @@
   "private": {
     "modules": [ {
       "definition": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
-      "hash": "307ed2723825fe315220ed5b5117d5b947894742",
+      "hash": "9e39ab1b9db74853d526dacaac7a9f357d4ffc96",
       "name": "Zefiros-Software/Defaults",
       "public": {
         "libraries": [ {

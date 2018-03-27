@@ -14,7 +14,10 @@ project "FileSystem"
             links "stdc++fs"
 
         filter "system:macosx"
-            links "c++experimental"
+            links {
+                "c++experimental",
+                "stdc++fs"
+            }
         
         filter {}
     end)
