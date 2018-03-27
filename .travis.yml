@@ -46,7 +46,7 @@ matrix:
 global:
   env:
   - PROJECT=FileSystem
-  - PROJECT_DIRECTORY={{PROJECT_DIRECTORY}}
+  - PROJECT_DIRECTORY=fs
   - PROJECT_TEMPLATE=latest
 install:
 - source /dev/stdin <<< "$(curl -s https://raw.githubusercontent.com/Zefiros-Software/ZPM/dev/script/install-zpm.sh)"
