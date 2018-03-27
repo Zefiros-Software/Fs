@@ -28,7 +28,9 @@
 #include "fs/fs.h"
 
 #ifdef IS_WINDOWS
-#include <windows.h>
+#   include <windows.h>
+#else
+#   include <limits.h>
 #endif
 #ifdef IS_LINUX
 #   include <unistd.h>

@@ -10,7 +10,7 @@ project "FileSystem"
         
         zpm.uses "Zefiros-Software/Preproc"
         
-        filter "system:linux"
+        filter "system:not windows"
             links "stdc++fs"
         
         filter {}
