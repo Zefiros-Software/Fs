@@ -33,8 +33,32 @@ workspace "FileSystem"
 
     zefiros.setDefaults("fs")
 
-    project "fs"
+    project "Fs"
         zpm.uses "Zefiros-Software/Preproc"
 
-    project "fs-test"
+        filter "system:linux"
+            links "stdc++fs"
+
+        filter "system:macosx"
+            links {
+            "c++experimental",
+        --        "stdc++fs",
+        --        "pthread"
+            }
+        
+        filter {}
+
+    project "Fs-test"
         zpm.uses "Zefiros-Software/Preproc"
+
+        filter "system:linux"
+            links "stdc++fs"
+
+        filter "system:macosx"
+            links {
+            "c++experimental",
+        --        "stdc++fs",
+        --        "pthread"
+            }
+        
+        filter {}

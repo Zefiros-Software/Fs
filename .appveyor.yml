@@ -3,7 +3,7 @@ platform:
 build: off
 environment:
   PYTHON: "C:\\Python35"
-  PROJECT: FileSystem
+  PROJECT: Fs
   PROJECT_DIRECTORY: fs
   VS_VERSION: vs2017
   APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017

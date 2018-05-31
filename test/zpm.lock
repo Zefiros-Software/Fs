@@ -1,0 +1,60 @@
+{
+  "definition": "./",
+  "optionals": [],
+  "private": {
+    "libraries": [ {
+      "definition": "../",
+      "hash": "LOCAL",
+      "name": "Zefiros-Software/Fs",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/Preproc.git",
+          "hash": "cfc72aa91d4c64cce80ae568bd35451ca0168fd9",
+          "name": "Zefiros-Software/Preproc",
+          "public": {
+            "libraries": [ {
+              "definition": "https://github.com/Zefiros-Software/Predef.git",
+              "hash": "c8c26821b9ab850ace7bbaf0d22f347a1486ff6d",
+              "name": "Zefiros-Software/Predef",
+              "repository": "https://github.com/boostorg/predef.git",
+              "tag": "boost-1.67.0",
+              "version": "1.67.0",
+              "versionRequirement": ">1.65.0 || @head"
+            } ]
+          },
+          "repository": "https://github.com/Zefiros-Software/Preproc.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head"
+        } ]
+      },
+      "repository": "../",
+      "tag": "DIR"
+    } ],
+    "modules": [ {
+      "definition": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "hash": "66cac4a6aa7f109e0fb8ce9daaac9f4330307b46",
+      "name": "Zefiros-Software/Defaults",
+      "public": {
+        "libraries": [ {
+          "definition": "https://github.com/Zefiros-Software/GoogleTest.git",
+          "hash": "4e4df226fc197c0dda6e37f5c8c3845ca1e73a49",
+          "name": "Zefiros-Software/GoogleTest",
+          "repository": "https://github.com/google/googletest.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head || ^1.0.0"
+        }, {
+          "definition": "https://github.com/Zefiros-Software/GoogleBenchmark.git",
+          "hash": "4fbfa2f3368cb8d8a0cba48edda584c7dd9f0a14",
+          "name": "Zefiros-Software/GoogleBenchmark",
+          "repository": "https://github.com/google/benchmark.git",
+          "tag": "HEAD",
+          "versionRequirement": "@head"
+        } ]
+      },
+      "repository": "https://github.com/Zefiros-Software/ZefirosDefaults.git",
+      "tag": "HEAD",
+      "versionRequirement": "@head"
+    } ]
+  },
+  "repository": "./"
+}
