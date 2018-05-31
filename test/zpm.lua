@@ -3,5 +3,5 @@ workspace "Fs-ZPM"
 
     zefiros.setTestZPMDefaults( "fs" )
 
-    project "Fs-zpm-test"
+    project "fs-zpm-test"
         zpm.uses "Zefiros-Software/Fs"

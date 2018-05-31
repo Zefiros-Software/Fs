@@ -33,7 +33,7 @@ workspace "FileSystem"
 
     zefiros.setDefaults("fs")
 
-    project "Fs"
+    project "fs"
         zpm.uses "Zefiros-Software/Preproc"
 
         filter "system:linux"
@@ -48,7 +48,7 @@ workspace "FileSystem"
         
         filter {}
 
-    project "Fs-test"
+    project "fs-test"
         zpm.uses "Zefiros-Software/Preproc"
 
         filter "system:linux"
