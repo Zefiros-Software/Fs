@@ -39,11 +39,7 @@ project "FileSystem"
             links "stdc++fs"
 
         filter "system:macosx"
-            links {
-               "c++experimental",
-        --        "stdc++fs",
-        --        "pthread"
-            }
+            links "c++experimental"
         
         filter {}
     end)
