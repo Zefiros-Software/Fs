@@ -29,12 +29,8 @@
 
 #include "preproc/preproc.h"
 
-#ifdef IS_MACOS
-#   include <filesystem>
-#else
-#   include <experimental/filesystem>
-#endif
-
+// for now :(
+#include <experimental/filesystem>
 
 namespace fs = std::experimental::filesystem;
 
