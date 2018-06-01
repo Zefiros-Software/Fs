@@ -45,7 +45,7 @@ matrix:
     - GCC_VERSION=7
 global:
   env:
-  - PROJECT=Fs
+  - PROJECT=FileSystem
   - PROJECT_DIRECTORY=fs
   - PROJECT_TEMPLATE=latest
 install:
